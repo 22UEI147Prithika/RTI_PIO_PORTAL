@@ -1,0 +1,80 @@
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.heading img {
+  height: 60px;
+  margin: 0 10px;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 20px;
+  color: #005596;
+  margin: 0;
+}
+
+.title p {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+.login-container {
+  display: flex;
+  justify-content:end;
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.login-select {
+  background-color: #007bdb;
+  border: none;
+  padding: 9px 15px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+ 
+}
+.footer {
+  background-color: #1c75bc; /* Similar blue shade */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #ffffff80; /* semi-transparent white */
+  margin: 20px auto;
+  width: 90%;
+}
+
+.footer .H1, .footer .H2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 auto;
+  max-width: 90%;
+  line-height: 1.6;
+}
